@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <!--CSS Styles -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- Animate CSS CDN -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            rel="stylesheet"
+    />
+    <title>Leah Njambi | Web Developer</title>
+
+</head>
+
+<body>
+<!-- Navbar -->
+<nav>
+    <h1>LEAH NJAMBI</h1>
+    <ul class="navigation">
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="about">
+    <img
+            alt="leah_njambi"
+            class="hero-img"
+            loading="lazy"
+            src="assets/images/IMG_20230327_123633_141.jpg"
+    />
+    <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
+            dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
+            inventore tempore minus nemo, iste ullam illo laboriosam maiores
+            repudiandae quos!
+        </p>
+    </div>
+</section>
+
+<!-- More about -->
+<section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+        autem deleniti cupiditate molestias quis unde quae totam porro dicta
+        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+        nostrum dolor minus, libero delectus praesentium perferendis
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        consequuntur labore? Ea totam voluptas amet!
+    </p>
+</section>
+
+<!-- Skills section -->
+<section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img
+                    alt=""
+                    class="icon icon-card"
+                    loading="lazy"
+                    src="assets/icons/android.png"
+            />
+            <img
+                    alt=""
+                    class="icon icon-card"
+                    loading="lazy"
+                    src="assets/icons/css.png"
+            />
+            <img
+                    alt=""
+                    class="icon icon-card"
+                    loading="lazy"
+                    src="assets/icons/html.png"
+            />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+            <img
+                    alt=""
+                    class="icon icon-card"
+                    loading="lazy"
+                    src="assets/icons/python.jpg"
+            />
+            <img
+                    alt=""
+                    class="icon icon-card"
+                    loading="lazy"
+                    src="assets/icons/kotlin.jpg"
+            />
+            <img
+                    alt=""
+                    class="icon icon-card"
+                    loading="lazy"
+                    src="assets/icons/bootstrap.png"
+            />
+        </div>
+    </div>
+</section>
+
+<!-- Projects section -->
+<section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+        <div class="project-container project-card">
+            <img
+                    alt="expense-tracker"
+                    class="project-pic"
+                    loading="lazy"
+                    src="assets/images/img.png"
+            />
+            <h3 class="project-title">Link app</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a class="project-link" href="https://github.com/leahnjambi/Intents" target="_blank">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+                    alt="netflic-clone"
+                    class="project-pic"
+                    loading="lazy"
+                    src="assets/images/img_1.png"
+            />
+            <h3 class="project-title">Registration app</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a class="project-link" href="https://github.com/leahnjambi/RegistrationForm" target="_blank">Check it
+                Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+                    alt="greeny-earth"
+                    class="project-pic"
+                    loading="lazy"
+                    src="assets/images/img_2.png"
+            />
+            <h3 class="project-title">Firebase database app</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a class="project-link" href="https://github.com/leahnjambi/Firebase-database" target="_blank">Check it
+                Out</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact section -->
+<section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input
+                            class="input-field"
+                            id="name"
+                            name="sender-name"
+                            placeholder="Enter Your Name"
+                            required
+                            type="text"
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                            class="input-field"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Enter Your Email"
+                            required
+                            type="email"
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                            class="input-field"
+                            cols="60"
+                            id="message"
+                            name="message"
+                            placeholder="Enter Your Message"
+                            required
+                            rows="10"
+                    ></textarea>
+                </div>
+                <input
+                        class="submit-btn"
+                        id="submit-btn"
+                        type="submit"
+                        value="Submit"
+                />
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Social accounts - Fixed to the right -->
+<div class="socials">
+    <a href="https://instagram.com/njaambii_?igshid=ZDdkNTZiNTM=" target="_blank"
+    ><img
+            alt="Instagram"
+            class="socicon"
+            loading="lazy"
+            src="assets/icons/instagram.jpg"
+    /></a>
+    <a href="https://github.com/leahnjambi" target="_blank"
+    ><img alt="Github" class="socicon" src="assets/icons/github.png"
+    /></a>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+            alt="scroll-up"
+            class="socicon up-arrow"
+            src="assets/icons/uparrow.png"
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+        <p class="copy">&copy; Copy right</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="https://instagram.com/njaambii_?igshid=ZDdkNTZiNTM=" target="_blank"
+            >Njaa-mbii</a
+            >
+        </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+
+    <script
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+            type="module"
+    ></script>
+    <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
+
